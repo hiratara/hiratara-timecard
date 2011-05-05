@@ -2,7 +2,7 @@ use inc::Module::Install;
 name 'Hiratara-Timecard';
 all_from 'lib/Hiratara/Timecard.pm';
 
-# requires '';
+requires 'Time::Piece';
 
 tests 't/*.t';
 author_tests 'xt';
